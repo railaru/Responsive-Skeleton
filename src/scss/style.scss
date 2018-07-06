@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+$font-family-base: Arimo;
+$headings-font-family: Arimo;
+$body-color: rgb(63, 63, 63);
+$headings-color: black;
+
+$theme-colors: (
+  primary: #1b2021,
+  secondary: #505050,
+  success: #28a745,
+  info: #8a8a8a,
+  warning: #ffc107,
+  danger: #dc3545,
+  light: #f8f9fa,
+  dark: #202020
+);
+
+$body-bg: white;
+$link-color: rgb(63, 63, 63);
+
+// Horizontal rule
+$hr-border-color: rgba(map-get($theme-colors,"dark"),.25);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// custom classes =>
